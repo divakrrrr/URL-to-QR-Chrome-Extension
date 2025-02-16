@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "URL to QR Code",
+  "version": "1.0",
+  "description": "Generate a QR Code from the entered URL",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}

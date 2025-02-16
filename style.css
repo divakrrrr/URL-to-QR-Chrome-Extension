@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+}
+
+button {
+    padding: 8px 12px; /* Fixed padding syntax */
+    border-radius: 5px; /* Added better styling */
+    background-color: rgb(140, 98, 255);
+    color: white;
+    cursor: pointer;
+    margin-top: 10px; /* Fixed margin */
+    border: none;
+}
+
+#qrcontainer {
+    display: none; /* Hidden initially */
+    margin-top: 10px;
+}
+
